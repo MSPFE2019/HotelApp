@@ -36,6 +36,7 @@ Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp
 
 deskList - List of Desk
 ..* Active Desk - 1
+
 ..* Inactive Desk - 0
 
 floormapList - Floor Map list
