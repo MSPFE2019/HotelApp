@@ -26,11 +26,12 @@ Hoteling App Screenshot
 ### Create SharePoint Lists
 
 1. Connect to the destination SharePoint site 
-Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
+Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite"  -UseWebLogin
 
 2. Import the items from the template file
 Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
 
+Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp)
 ###### It will create the following list:
 Agency Data - This contain your Agency information for the naming convention 
 
