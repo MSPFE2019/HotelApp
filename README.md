@@ -33,12 +33,14 @@ Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
 
 Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp)
 ###### It will create the following list:
-Agency Data - This contain your Agency information for the naming convention 
 
-![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
-SharePointRequestList - Contains all the SharePoint Request
+deskList - List of Desk
+..* Active Desk - 1
+..* Inactive Desk - 0
 
-TeamsRequestList - Contains all the Teams Request
+floormapList - Floor Map list
+
+reservationList - Store reservation for desk
 
 
 ### To import a solution:
