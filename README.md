@@ -1,2 +1,2 @@
-# HotelApp
+# Hoteling App
 Desk Hoteling App
