@@ -2,11 +2,28 @@
 Desk Hoteling App
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
 
+Hoteling App Screenshot
+
+###### Main Screen
+![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/MainScreen.jpg)
+
+###### Search by Map
+![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/SearchbyMap.jpg)
+
+###### Search by Location
+![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/SearchbyLocation.jpg)
+
+###### Selected Desk
+![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/Select_SearchbyMap.jpg)
+
+###### Reserve Desk
+![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/DeskSelection.jpg)
+
+
 1. Create SharePoint Lists
 2. Import Solution 
 
 ### Create SharePoint Lists
-
 
 1. Connect to the destination SharePoint site 
 Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
@@ -28,7 +45,7 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 1. On the command bar, select Import.
 
-2. [Import solution.](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/RequestATeamPA_1_1_0_6.zip), Click to download solution.
+2. [Import solution](https://github.com/MSPFE2019/HotelApp/blob/main/HotelApp_1_0_0_3.zip), Click to download solution.
 
 3. On the Import a solution page, select Browse to locate the compressed (.zip or .cab) file that contains the solution you want to import.
 
