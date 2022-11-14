@@ -1,4 +1,4 @@
-# Hoteling App
+# Hoteling App v2
 Desk Hoteling App
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
 
@@ -21,7 +21,7 @@ Hoteling App Screenshot
 
 
 1. Create SharePoint Lists
-2. Import Solution 
+2. [Import App](https://powerapps.microsoft.com/en-us/blog/powerapps-packaging/#:~:text=You%20can%20import%20an%20app%20package%20via%20the,2%20Select%20Apps%20from%20the%20left%20navigation%20bar)
 
 ### Create SharePoint Lists
 
@@ -46,26 +46,19 @@ floormapList - Floor Map list
 reservationList - Store reservation for desk
 
 
-### To import a solution:
+### To import a App:
 Sign into Power Apps and select Solutions from the left navigation.
+Importing an app package
+You can import an app package via the following steps:
+Go to web.powerapps.com
+Select Apps from the left navigation bar
+Select Import package
+Select Upload and select the app package file that you want to import
+Once the package has been uploaded you will need to review the package contents and will need to provide additional input for any item marked with a red icon by selecting the wrench icon for each item and entering the required information.
+Once you have provided all of the required information select Import  
+When import completes you will be automatically redirected to a page (similar to the one below) that outlines whether or not the import operation was successful
+NOTE: If you are importing an app and chose to Update an existing app, the new changes will be saved as a draft of the applications.  You will need to publish those changes in order for them to be available all other users of the applications.
 
-1. On the command bar, select Import.
-
-2. [Import solution](https://github.com/MSPFE2019/HotelApp/blob/main/HotelApp_1_0_0_3.zip), Click to download solution.
-
-3. On the Import a solution page, select Browse to locate the compressed (.zip or .cab) file that contains the solution you want to import.
-
-4. Select Next.
-
-5. Information about the solution is displayed. By default, in the Advanced settings section, if SDK messages and flows exist in the solution, they will be imported. Clear the Enable SDK messages and flows included in the solution option if you want them to import in an inactive state.
-
-6. If your solution contains connection references, you’ll be prompted to select the connections you want. If a connection does not already exist, create a new one. Select Next.
-
-7. If your solution contains environment variables, you will be prompted to enter values. You will not see this screen if value(s) are already present in your solution or the target environment.
-
-8. If missing dependencies are detected in the target environment, a list of the dependencies is presented. In environments where the required package version is available for import in the target environment, a link to resolve the dependency is presented. Selecting the link takes you to the Power Platform admin center where you can install the application update. After the application update is completed, you can start the solution import again.
-
-9. Select Import.
 
 
 
