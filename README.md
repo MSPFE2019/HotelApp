@@ -21,7 +21,7 @@ Hoteling App Screenshot
 
 
 1. Create SharePoint Lists
-2. [Import App](https://github.com/MSPFE2019/HotelApp/blob/main/Hoteling%20App%20v2.msapp)
+2. [Download App](https://github.com/MSPFE2019/HotelApp/blob/main/Hoteling%20App%20v2.msapp)
 
 ### Create SharePoint Lists
 
