@@ -20,18 +20,28 @@ Hoteling App Screenshot
 ![Screenshot](https://github.com/MSPFE2019/HotelApp/blob/main/DeskSelection.jpg)
 
 
-1. Create SharePoint Lists
+1. Create SharePoint Lists via pnp or Power Automate
+Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp)
+#### Create SharePoint Lists with pnp PowerShell
+	**Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite"  -UseWebLogin**
+	**Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"**
+
+#### Create SharePoint Lists with PowerAutomate
+
+- Import the Power Automates below:
+- Turn on each power automate and run, provide the url for the Hoteling site.
+- This will create the lists on your site
+
+[Download DeskList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_desklist_20230117184224.zip "Download DeskList")
+[Download FloorList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_floormaplist_20230117184247.zip "Download FloorList")
+[Download ReservationList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_reservationlist_20230117184149.zip "Download ReservationList")
+
+
 2. [Download App](https://github.com/MSPFE2019/HotelApp/blob/main/HotelingAppv2_20221202153408.zip)
 
-### Create SharePoint Lists
 
-1. Connect to the destination SharePoint site 
-Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite"  -UseWebLogin
 
-2. Import the items from the template file
-Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
 
-Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp)
 ###### It will create the following list:
 
 deskList - List of Desk
