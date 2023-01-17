@@ -33,7 +33,9 @@ Download [SPList.pnp](https://github.com/MSPFE2019/HotelApp/blob/main/SPList.pnp
 - This will create the lists on your site
 
 [Download DeskList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_desklist_20230117184224.zip "Download DeskList")
+
 [Download FloorList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_floormaplist_20230117184247.zip "Download FloorList")
+
 [Download ReservationList](https://github.com/MSPFE2019/HotelApp/blob/main/CreateList_reservationlist_20230117184149.zip "Download ReservationList")
 
 
